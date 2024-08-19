@@ -1,0 +1,85 @@
+baseURL = "https://utopiatech.eu"
+title = "UtopiaTech"
+author = "baldarn"
+languageCode = "it"
+DefaultContentLanguage = "it"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  showBlog = true
+  mainSections = ['blog']
+
+  googleFonts = true
+
+  [params.logo]
+    main = "images/logo_long_transp.png"
+    alt = "utopiatech Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "UtopiaTech"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = true
+
+  [params.homepage_meta_tags]
+    meta_description = "Open source software for no profit associations"
+    meta_og_title = "UtopiaTech"
+    meta_og_type = "website"
+    meta_og_url = "https://utopiatech.it"
+    meta_og_image = "https://utopiatech.it/images/logo.png"
+    meta_og_description = "Open source software for no profit associations"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "info"
+    name = "Info"
+    url = "/info/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "contatti"
+    name = "Contatti"
+    url = "/contatti/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "products"
+    name = "Prodotti"
+    url = "/products/"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/UtopiaTechIT"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2

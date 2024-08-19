@@ -1,0 +1,18 @@
+[
+  {
+    "title": "No Profit",
+    "description": "Una impresa no profit",
+    "icon": "fa-solid fa-hand-holding-heart"
+  },
+  {
+    "title": "Software",
+    "description": "Realizziamo software con tecnoligie altamente performanti",
+    "icon": "fa-solid fa-microchip"
+  },
+  {
+    "title": "Open source",
+    "description": "Tutti i nostri progetti sono open source! Guardali su Github",
+    "icon": "fa-brands fa-github",
+    "link": "https://github.com/UtopiaTechIT"
+  }
+]
