@@ -39,12 +39,12 @@ enableRobotsTXT = true
     fontawesome = true
 
   [params.homepage_meta_tags]
-    meta_description = "Open source software for no profit associations"
+    meta_description = "Open source software and open business"
     meta_og_title = "UtopiaTech"
     meta_og_type = "website"
     meta_og_url = "https://utopiatech.it"
     meta_og_image = "https://utopiatech.it/images/logo.png"
-    meta_og_description = "Open source software for no profit associations"
+    meta_og_description = "Open source software and open business"
 
 [menu]
 

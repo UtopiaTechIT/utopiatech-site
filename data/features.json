@@ -1,13 +1,14 @@
 [
   {
-    "title": "No Profit",
-    "description": "Una impresa no profit",
-    "icon": "fa-solid fa-hand-holding-heart"
-  },
-  {
     "title": "Software",
     "description": "Realizziamo software con tecnoligie altamente performanti",
     "icon": "fa-solid fa-microchip"
+  },
+  {
+    "title": "Open Business",
+    "description": "Una impresa Open Business",
+    "icon": "fa-solid fa-hand-holding-heart",
+    "link": "https://en.wikipedia.org/wiki/Open_business"
   },
   {
     "title": "Open source",
